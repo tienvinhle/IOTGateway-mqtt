@@ -8,7 +8,7 @@ configPath = "/etc/mqtt/appConfig.conf"
 #orgID will be read from central config deliveried from Agent via Redis GET
 orgID = "mrViet"
 #device_id will be read from central config deliveried from Agent via Redis GET
-device_id = '61640dd128652f4a30a9ffca'
+device_id = '61640dd128652f4a31a9ffca'
 client_id = device_id
 
 def getConfig(configPath):
