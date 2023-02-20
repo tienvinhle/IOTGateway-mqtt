@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM python:latest
+FROM python:3.10
 ENV PYTHONUNBUFFERED=1
 RUN mkdir /etc/mqtt/
 WORKDIR /etc/mqtt/
